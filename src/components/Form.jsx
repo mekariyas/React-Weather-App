@@ -7,7 +7,7 @@ function Form() {
     const [city, setCityName] = useState("");
     const [visible, setVisible] = useState(false);
     const [btnDisability,setBtnDisability] = useState(false)
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=b417b24e9be64d192a560e45d2c7c41e`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid`
     const [weather, setWeather] = useState({});
 
     function clearAll(){
